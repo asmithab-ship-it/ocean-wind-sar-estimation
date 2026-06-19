@@ -2,21 +2,19 @@
 __pycache__/
 *.pyc
 
-# Jupyter / notebooks cache
-.ipynb_checkpoints/
-
-# Data files (DON'T upload large datasets)
-Data for August month/
-Data for December month/
-
-# Output folders (generated results)
-Output for both/
-Outputs for August month/
-Outputs for December month/
-
-# NetCDF / large scientific data
+# Data (large files should NOT be pushed)
+Data*/
+Output*/
+Outputs*/
 *.nc
+
+# Jupyter
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Virtual environment
+venv/
+env/
